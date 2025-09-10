@@ -15,3 +15,5 @@
 </p>
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Transformer-Based-Sentiment-Analysis-of-Simmons-Bar-Google-Maps-Reviews/blob/main/Images/Simmons_bar.png?raw=true)  
+
+This project performs sentiment analysis on customer reviews from all branches of Simmons Bar collected via Google Maps. Reviews were scraped using Apify and Outscraper, then processed with transformer models RoBERTa and DeBERTa for classification of sentiments.
