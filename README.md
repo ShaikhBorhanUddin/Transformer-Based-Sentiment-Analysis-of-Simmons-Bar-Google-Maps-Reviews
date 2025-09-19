@@ -19,7 +19,7 @@
 
 ## Project Overview 
 
-This project performs sentiment analysis on customer reviews of all London branches of Simmons Bar, collected from Google Maps. Unlike a previous study where VADER and DistilBERT were tested on 12 independent restaurants, this project focuses on a single brand across multiple locations, providing deeper insights into branch-level performance and customer perception.
+This project performs sentiment analysis on customer reviews of all London branches of Simmons Bar, collected from Google Maps. Unlike a [previous study](https://github.com/ShaikhBorhanUddin/Customer-Sentiment-Analysis-in-Streatham-Area-Restaurants) where VADER and DistilBERT were tested on 12 independent restaurants, this project focuses on a single brand across multiple locations, providing deeper insights into branch-level performance and customer perception.
 
 A total of 33,000+ real customer reviews were scraped using Apify and Outscraper, making this dataset significantly larger and more representative. The analysis leverages state-of-the-art transformer models (RoBERTa and DeBERTa) to classify reviews into positive, neutral, and negative sentiments with improved accuracy over traditional lexicon-based or lightweight transformer models.
 
