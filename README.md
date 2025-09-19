@@ -19,3 +19,26 @@
 ## Project Overview 
 
 This project performs sentiment analysis on customer reviews from all branches of Simmons Bar collected via Google Maps. Reviews were scraped using Apify and Outscraper, then processed with transformer models RoBERTa and DeBERTa for classification of sentiments.
+
+## Dataset 
+
+## Data Cleaning 
+
+## Folder Structure 
+
+## Experiment 
+
+## Results  
+
+## Decision Visualization 
+
+## Key Findings  
+
+## Technology Used 
+
+## Applications 
+
+## Licence 
+
+## Contact 
+
