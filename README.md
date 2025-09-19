@@ -19,7 +19,19 @@
 
 ## Project Overview 
 
-This project performs sentiment analysis on customer reviews from all branches of Simmons Bar collected via Google Maps. Reviews were scraped using Apify and Outscraper, then processed with transformer models RoBERTa and DeBERTa for classification of sentiments. 
+This project performs sentiment analysis on customer reviews of all London branches of Simmons Bar, collected from Google Maps. Unlike a previous study where VADER and DistilBERT were tested on 12 independent restaurants, this project focuses on a single brand across multiple locations, providing deeper insights into branch-level performance and customer perception.
+
+A total of 33,000+ real customer reviews were scraped using Apify and Outscraper, making this dataset significantly larger and more representative. The analysis leverages state-of-the-art transformer models (RoBERTa and DeBERTa) to classify reviews into positive, neutral, and negative sentiments with improved accuracy over traditional lexicon-based or lightweight transformer models.
+
+The results are aggregated to:
+
+- Measure branch-specific sentiment distribution.
+
+- Compare positive sentiment ratios across branches.
+
+- Highlight strengths and weaknesses of each branch relative to competitors.
+
+An interactive web application was also developed to visualize branch-level sentiment and geographical insights.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Transformer-Based-Sentiment-Analysis-of-Simmons-Bar-Google-Maps-Reviews/blob/main/Images/simmons_bar_map.png?raw=true)  
 
